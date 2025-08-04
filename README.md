@@ -73,3 +73,5 @@ Este projeto foi construído com ferramentas modernas e poderosas:
 ---
 
 > "Papai te ama, Davi."
+
+* **[DOWNLOAD](https://github.com/davidmp24/jogo_corre_corre/releases/download/v1.0.0-beta/Corre.Corre.apk)
