@@ -1,0 +1,38 @@
+name: corre_corre
+description: Jogo corre corre
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Dependência do motor de jogo Flame
+  flame: ^1.8.0 # ou a versão que você está usando
+  flame_audio: ^2.11.1 # NOVO
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  # Declaração da pasta onde ficam as imagens
+  assets:
+    - assets/images/
+    - assets/audio/  # NOVO: adicione esta linha
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+
+  fonts:
+    - family: PressStart2P
+      fonts:
+        - asset: assets/fonts/PressStart2P-Regular.ttf
